@@ -1,0 +1,160 @@
+.warp{
+	max-width: 936px;
+	margin: 0 auto;
+	padding: 90px 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.main-title{
+	font-size: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	#titlePage{
+		font-weight: 900;
+		line-height: 0.7em;
+		display: block;
+	}
+}
+
+.boxs{
+	overflow: auto;
+	text-align: center;
+	.box{
+
+		margin-bottom: 20px;
+
+		img{
+			margin-bottom: 20px;
+		}
+		p{
+			font-size: 15px;
+			font-weight: 500;
+			line-height: 1.6em;
+		}
+	}
+}
+
+.post-title{
+	font-size: 20px;
+	line-height: 1.3em;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+#textBotPostTitle{
+	margin: 0px 0px 20px;
+	font-size: 15px;
+	line-height: 1.6em;
+}
+
+
+form{
+	.inputs{
+		margin: 0 -15px;
+		.box-input, .box-select{
+			height: 60px;
+			float: left;
+			padding: 0 5px;
+			label{
+				background-color: rgb(237, 237, 237);
+				height: 40px;
+				display: block;
+				margin: 0 10px;
+				position: relative;
+				i{
+					position: absolute;
+					top: 0;
+					left: 0;
+					padding: 0 13px;
+					line-height: 40px;
+					height: 40px;
+					color: rgb(163, 163, 163);
+					background-color: rgb(227, 227, 227);
+				}
+				input, select{
+					display: inline-block;
+					width: 100% !important;
+					height: 40px;
+					padding: 0 10px;
+					margin-bottom: 15px;
+					font-size: 14px;
+					line-height: 25px;
+					color: rgb(0, 0, 0);
+					border: 0;
+					border-radius: none;
+					transition: all 200ms ease-in 0s;
+					background-color: transparent;
+					padding-left: 52px;
+					font-family: 'Raleway', sans-serif;
+				}
+
+				select option{
+					padding: 5px;
+				}
+
+				#fakeselect{
+					background-color: rgb(232, 85, 78);
+					position: absolute;
+					display: inline-block;
+					text-align: center;
+					right: 0;
+					top: 0;
+					height: 40px;
+					line-height: 40px;
+					width: 40px;
+					pointer-events: none;
+					padding: 0;
+					color: rgb(255, 255, 255);
+				}
+
+			}
+		}
+	}
+
+	.textareabox{
+		padding: 0;
+		textarea {
+			height: 100%;
+			width: 100%;
+			padding: 8px 13px;
+			margin-bottom: 15px;
+			min-height: 200px;
+			resize: vertical;
+			display: inline-block;
+			font-weight: inherit;
+			font-size: 14px;
+			border: none;
+			background: rgba(0,0,0,0.06);
+			border-radius: none;
+			transition: all 200ms ease-in;
+			font-family: 'Raleway', sans-serif;
+		}
+	}
+
+
+	.radio-set{
+		margin-bottom: 10px;
+		label{
+			margin-right: 10px;
+			display: inline-block;
+			max-width: 100%;
+		}
+	}
+
+
+	#submit{
+		background-color: rgb(232, 85, 78);
+		color: rgb(255, 255, 255);
+		text-transform: uppercase;
+		font-weight: 900;
+		padding: 0 5px;
+		height: 40px;
+		width: 75px;
+		border: none;
+		cursor: pointer;
+		transition: all 200ms ease-in;
+		&:hover{
+			background-color: rgb(207, 76, 69);
+		}
+	}
+
+}

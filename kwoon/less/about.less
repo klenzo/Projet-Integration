@@ -1,0 +1,227 @@
+@colorDif: rgb(74, 162, 209);
+a{text-decoration: none;color: inherit; &:hover{color: @colorDif;}}
+
+.header{
+	background-color: rgb(31, 33, 36);
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	.navHeader{
+
+	}
+}
+
+.blocTitlePage{
+	padding: 40px 0;
+	#titlePage{
+		font-weight: 400;
+		font-size: 30px;
+	}
+}
+
+.blocPresentation{
+	color: rgb(96, 96, 96);
+	.blocImgPresentation{
+		padding-right: 15px;
+		overflow: auto;
+		#imgPresentation{
+			display: inline-block;
+			width: 100%;
+			height: auto;
+		}
+	}
+	.textPresentation{
+		padding: 0 15px;
+		p{
+			margin-bottom: 20px;
+		}
+		.principalText{
+			font-size: 20px;
+			line-height: 1.5em;
+			font-weight: normal;
+		}
+		.littleText{
+			line-height: 1.6em;
+			font-weight: 500;
+		}
+	}
+}
+
+.colorBoxContent{
+	.colorBoxs{
+		padding: 0 5px;
+		.bigBoxColor{
+			padding: 10px;
+			text-align: center;
+			.littleBoxColor{
+				background-color: #F50;
+				color: rgb(255, 255, 255);
+				padding: 35px 30px 10px;
+				&.box1{background-color: rgb(103, 183, 212);}
+				&.box2{background-color: rgb(239, 101, 120);}
+				&.box3{background-color: rgb(83, 207, 194);}
+				&.box4{background-color: rgb(245, 174, 86);}
+				.iconColorBox{
+					font-size: 55px;
+					display: block;
+					margin-bottom: 20px;
+				}
+				.titleColorBox{
+					font-size: 16px;
+					margin-bottom: 10px;
+					font-weight: 700;
+				}
+				.textColorBox{
+					margin: 0px 0px 20px;
+					line-height: 1.6em;
+				}
+			}
+		}
+	}
+}
+
+
+.aboutCompany{
+	.titleBoxAboutCompany{
+		font-size: 18px;
+		margin-bottom: 10px;
+		font-weight: 700;
+		color: rgb(64, 64, 64);
+	}
+	.textBoxAboutCompany{
+		margin: 0px 0px 20px;
+		line-height: 24px;
+	}
+	.boxProgressBars{
+		padding-right: 15px;
+		.ulProgress{
+			margin-top: 30px;
+			li{
+				margin-bottom: 20px;
+				line-height: 24px;
+				.topLiProgress{
+					em{
+						color: @colorDif;
+					}
+				}
+				.barProgress{
+					border: 1px solid rgb(74, 162, 209);
+					height: 15px;
+					.widthbarProgress{
+						background-color: rgb(74, 162, 209);
+						height: 15px;
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.whyChooseUs{
+		padding-left: 15px;
+		.contentBoxWhyChoose{
+			.etabs{
+				margin-bottom: 4px;
+				display: block;
+				width: 100%;
+				overflow: auto;
+				.tab{
+					margin: 0px 3px 6px 0px;
+					display: inline-block;
+					float: left;
+					line-height: 1.6em;
+					color: rgb(96, 96, 96);
+					a{
+						color: @colorDif;
+						border: 2px solid @colorDif;
+						padding: 15px 20px;
+						display: block;
+						font-size: 12px;
+						font-weight: 800;
+						text-transform: uppercase;
+					}
+					&:hover a, &.active a{
+						background-color: @colorDif;
+						color: rgb(255, 255, 255);
+					}
+				}
+			}
+			.textContentBox{
+				padding: 10px 0;
+				p{
+					line-height: 1.6em;
+					color: rgb(96, 96, 96);
+					font-weight: 500;
+					margin-bottom: 10px;
+				}
+				ul li{
+					&:before{
+						background-color: @colorDif;
+						width: 5px;
+						height: 5px;
+						content: "";
+						display: inline-block;
+						border-radius: 100%;
+						margin-right: 10px;
+						margin-top: 7px;
+						float: left;
+					}
+				}
+			}
+		}
+	}
+}
+
+.fourIconsBox{
+	.fourIconBox{
+		padding: 30px;
+		text-align: center;
+		.iconBarBox{
+			color: @colorDif;
+			font-size: 55px;
+			margin-bottom: 20px;
+			display: block;
+		}
+		.statIcon{
+			display: block;
+			font-size: 35px;
+			margin-bottom: 10px;
+			font-weight: 700;
+		}
+		.descriptIcon{
+			margin: 0px 0px 20px;
+			color: rgb(94, 94, 94);
+		}
+	}
+}
+
+.blackcontent{
+	.boxPrefooter{
+		.postPreFooter .infoPostPreFooter{
+			h5{
+				a{color: rgb(236, 236, 236); &:hover{color: @colorDif;}}
+			}
+		}
+		.boxPreFooter{
+			.newsletterBox #joinNewsletter{
+				background-color: @colorDif;
+				&:hover{background-color: darken(@colorDif, 5%);}
+			}
+			.tags li a:hover{
+				background-color: @colorDif;
+			}
+		}
+	}
+}
+
+#floatContact:hover{
+	color: @colorDif;
+}
+
+@media screen and (max-width: 980px) {
+	.header{
+		.navHeader{
+			.toggleMenu{
+				background-color: @colorDif;
+			}
+		}
+	}
+}

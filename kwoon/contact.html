@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact - Kwoon</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+	<div class="warp">
+
+			<h1 class="main-title">
+				<strong id="titlePage">Get in Touch</strong>
+				<span class="zigzag"></span>
+			</h1>
+			<p class="lead-text">Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+			<div class="divide30"></div>
+			<div class="boxs">
+				<div class="col-4 sm-12 float-left box">
+					<img src="img/icon-worldmap.png" alt="">
+					<p>Moon Street Light Avenue <br> 14/05 Jupiter, JP 80630</p>
+				</div>
+				<div class="col-4 sm-12 float-left box">
+					<img src="img/icon-phone.png" alt="">
+					<p>00 (123) 456 78 90 <br> 00 (987) 654 32 10 </p>
+				</div>
+				<div class="col-4 sm-12 float-left box">
+					<img src="img/icon-openmail.png" alt="">
+					<p> <a class="email-link" href="mailto:#">manager@email.com</a> <br> <a class="email-link" href="mailto:#">asistant@email.com</a> </p>
+				</div>
+			</div>
+			<div class="divide50"></div>
+			<h2 class="post-title">Feel Free to Drop Us a Line</h2>
+			<p id="textBotPostTitle">Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus.</p>
+
+
+		<form action="" method="POST">
+			<div class="inputs">
+				<div class="col-6 sm-12 box-input" id="box-name">
+					<label><i class="fa fa-user"></i> <input type="text" name="name" placeholder="Your name" required="required"></label>
+				</div>
+				<div class="col-6 sm-12 box-input" id="box-mail">
+					<label><i class="fa fa-envelope"></i> <input type="text" name="email" placeholder="Your e-mail" required="required"></label>
+				</div>
+				<div class="col-6 sm-12 box-input" id="box-phone">
+					<label><i class="fa fa-phone"></i> <input type="tel" name="tel" placeholder="Phone" required="required"></label>
+				</div>
+				<div class="col-6 sm-12 box-select" id="box-select">
+					<label class="custom-select">
+						<select name="department" required="required">
+							<option value="">Select Department</option>
+							<option value="Sales">Sales</option>
+							<option value="Marketing">Marketing</option>
+							<option value="Support">Customer Support</option>
+							<option value="Other">Other</option>
+						</select>
+						<i class="fa fa-check"></i><span class="fa fa-chevron-down" id="fakeselect"></span>
+					</label>
+				</div>
+			</div>
+
+			<div class="textareabox">
+				<textarea name="message" placeholder="Type your message here..."></textarea>
+			</div>
+
+			<div class="radio-set">
+				<label>Subject:</label>
+				<label>
+					<input name="subject" value="General" type="radio">
+					<span class="fakeRadioContact"></span> General</label>
+				<label>
+					<input name="subject" value="Hi" type="radio">
+					<span class="fakeRadioContact"></span> Say Hi</label>
+				<label>
+					<input name="subject" value="Other" type="radio">
+					<span class="fakeRadioContact"></span> Other</label>
+			</div>
+
+			<input type="submit" id="submit" value="send">
+		</form>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

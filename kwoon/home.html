@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Kwoon</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<div class="header">
+		<div class="topHeader">
+			<div class="container">
+				<ul class="infoContact float-left">
+					<li><i class="fa fa-envelope"></i> <a href="mailto:hello@email.com" class="email-link">hello@email.com</a></li>
+					<li><i class="fa fa-phone"></i> +00 (123) 456 78 90</li>
+				</ul>
+
+				<ul class="socialNav float-right">
+					<li><a href="#"> <i class="fa fa-pinterest-p pinterest-icon"></i></a></li>
+					<li><a href="#"> <i class="fa fa-facebook facebook-icon"></i></a></li>
+					<li><a href="#"> <i class="fa fa-twitter twitter-icon"></i></a></li>
+					<li><a href="#"> <i class="fa fa-flickr flickr-icon"></i></a></li>
+					<li><a href="#"> <i class="fa fa-dribbble dribbble-icon"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="navHeader">
+			<div class="container">
+				<a href="home.html" id="logo"><img src="img/logo-dark.png" alt="Logo" class="float-left"></a>
+				<i class="fa fa-bars toggleMenu"></i>
+				<ul class="menuNav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Sliders</a></li>
+					<li><a href="#">Headers</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+		<!-- A changer ! -->
+	<div class="bigSlider">
+		<i class="fa fa-chevron-left commandSlider" id="prevSlid"></i>
+		<i class="fa fa-chevron-right commandSlider" id="nextSlid"></i>
+
+		<div class="slid slider1" style="background-image: url('img/rs4-1.jpg');">
+			<div class="blocImgSlid">
+				<div class="slider-woman" style="background-image: url('img/slider-woman.png');"></div>
+				<div class="slider-bubbles" style="background-image: url('img/slider-bubbles.png');"></div>
+			</div>
+			<div class="textSlid">
+				<p class="whiteTextSlid">Think <strong>unique</strong>. Be <strong>unique</strong>.</p>
+				<p class="whiteTextSlid">Make a difference using Kwoon.</p>
+			</div>
+		</div>
+
+		<div class="slid slider2" style="background-image: url('img/rs4-2.jpg');">
+			<div class="textSlid">
+				<p class="blackTextSlid">Bringing <strong>ideas</strong> to life.</p><br>
+				<p class="blackTextSlid" id="littleBlackTextSlid">Making life easier.</p>
+			</div>
+		</div>
+
+		<div class="slid slider3" style="background-image: url('img/rs4-3.jpg');">
+			<div class="textSlid">
+				<p class="whiteTextSlid littleBlackTextSlid">Video Support</p><br>
+				<p class="blackTextSlid littleBlackTextSlid">Youtube</p>
+				<p class="blackTextSlid littleBlackTextSlid">Vimeo</p>
+				<p class="blackTextSlid littleBlackTextSlid">HTML5</p>
+			</div>
+		</div>
+
+		<div class="bubbleSlid">
+			<span id="slider1" class="active"></span>
+			<span id="slider2"></span>
+			<span id="slider3"></span>
+		</div>
+
+		<span class="timeline"></span>
+
+	<!-- <ul id="slippry-demo">
+		<li><a href="#slide1"><img src="img/rs4-1.jpg" alt="Think unique. Be unique"></a>
+		</li>
+		<li><a href="#slide2"><img src="img/rs4-2.jpg"  alt="Bringing ideas to life"></a></li>
+		<li><a href="#slide3"><img src="img/rs4-3.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a></li>
+	</ul> -->
+
+
+	</div>
+
+	<div class="content whitecontent">
+		<div class="container">
+			<h3 class="main-title">
+				We are <strong>here</strong> to serve you
+				<br><span class="zigzag"></span>
+			</h3>
+			<p class="lead-text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. </p>
+
+		<div class="divide30"></div>
+
+			<div class="services">
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-heart-o"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Responsive Layout</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-mobile"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Flat & Clean design</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-print"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Print Design</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-tint"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Color Palettes</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-support"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Free Support & Updates</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-clock-o"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Rapid Solutions</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-video-camera"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Video Support</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-circle-o-notch"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">Working Contact Form</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+				<div class="col-4 sm-12 float-left service">
+					<div class="col-3 float-left boxIcon_service"><i class="fa fa-shopping-cart"></i></div>
+					<div class="col-9 float-left boxText_service">
+						<h4 class="titleService">E-Commerce</h4>
+						<p class="textService">Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="content greycontent">
+		<div class="container">
+			<h3 class="main-title">
+				Customer <strong>testimonials</strong>
+				<br><span class="zigzag"></span>
+			</h3>
+
+
+			<div class="persotop col-12">
+				<div class="col-6 sm-12 perso-left perso">
+					<div class="col-4 sm-12 float-left profilBox_perso">
+						<img src="img/t1.jpg" alt="" class="imgBox_perso">
+						<strong class="nameBox_perso">Connor Gibson</strong>
+						<em class="jobBox_perso">Interface Designer</em>
+					</div>
+					<div class="col-8 sm-12 float-left descriptBox_perso">
+						<p>
+							<i class="fa fa-quote-left"></i>
+						    Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.
+						</p>
+					</div>
+				</div>
+				<div class="col-6 sm-12 perso-right perso">
+					<div class="col-4 sm-12 float-right profilBox_perso">
+						<img src="img/t2.jpg" alt="" class="imgBox_perso">
+						<strong class="nameBox_perso">Barclay Widerski</strong>
+						<em class="jobBox_perso">Computer Engineer</em>
+					</div>
+					<div class="col-8 sm-12 float-left descriptBox_perso">
+						<p>
+							<i class="fa fa-quote-left"></i>
+							Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="divide30"></div>
+			<div class="persobottom col-12">
+				<div class="col-6 sm-12 perso-left perso">
+					<div class="col-4 sm-12 float-left profilBox_perso">
+						<img src="img/t3.jpg" alt="" class="imgBox_perso">
+						<strong class="nameBox_perso">Nikolas Brooten</strong>
+						<em class="jobBox_perso">Sales Manager</em>
+					</div>
+					<div class="col-8 sm-12 float-left descriptBox_perso">
+						<p>
+							<i class="fa fa-quote-left"></i>
+							Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula.
+						</p>
+					</div>
+				</div>
+				<div class="col-6 sm-12 perso-right perso">
+					<div class="col-4 sm-12 float-right profilBox_perso">
+						<img src="img/t4.jpg" alt="" class="imgBox_perso">
+						<strong class="nameBox_perso">Coriss Ambady</strong>
+						<em class="jobBox_perso">Marketing Specialist</em>
+					</div>
+					<div class="col-8 sm-12 float-left descriptBox_perso">
+						<p>
+							<i class="fa fa-quote-left"></i>
+							Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content whitecontent">
+		<div class="container">
+			<div class="miniSlideshow">
+				<ul>
+					<li><img src="img/c1.png" alt=""></li>
+					<li><img src="img/c2.png" alt=""></li>
+					<li><img src="img/c3.png" alt=""></li>
+					<li><img src="img/c4.png" alt=""></li>
+					<li><img src="img/c5.png" alt=""></li>
+					<li><img src="img/c6.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="content greycontent">
+		<div class="container">
+			<h3 class="main-title">
+				<strong>Our process</strong> on creating awesome projects
+				<br><span class="zigzag"></span>
+			</h3>
+			<p class="lead-text">Curabitur blandit tempus porttitor. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+			<div class="process">
+				<div class="processTop">
+					<div class="boxProcess col-6 sm-12 border-right border-bottom float-left">
+						<img src="img/icon-graph.png" alt="" class="iconProcess">
+						<div class="groupProcess">
+							<h4 class="titleBoxProcess">Collect Ideas</h4>
+							<p class="textProcess">
+								Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus.
+							</p>
+							<ul class="ulBoxProcess">
+								<li>Cras justo odio, dapibus ac facilisis eget quam.</li>
+								<li>Donec ullamcorper nulla non metus auctor fringilla.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="boxProcess col-6 sm-12 border-bottom float-left">
+						<img src="img/icon-board.png" alt="" class="iconProcess">
+						<div class="groupProcess">
+							<h4 class="titleBoxProcess">Data Analysis</h4>
+							<p class="textProcess">Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo.</p>
+							<ul class="ulBoxProcess">
+								<li>Cras justo odio, dapibus ac facilisis eget quam.</li>
+								<li>Donec ullamcorper nulla non metus auctor fringilla.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="processBottom">
+					<div class="boxProcess col-6 sm-12 border-right float-left">
+						<img src="img/icon-heart.png" alt="" class="iconProcess">
+						<div class="groupProcess">
+							<h4 class="titleBoxProcess">Magic Touch</h4>
+							<p class="textProcess">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+							<ul class="ulBoxProcess">
+								<li>Cras justo odio, dapibus ac facilisis eget quam.</li>
+								<li>Donec ullamcorper nulla non metus auctor fringilla.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="boxProcess col-6 sm-12 float-left">
+						<img src="img/icon-tv.png" alt="" class="iconProcess">
+						<div class="groupProcess">
+							<h4 class="titleBoxProcess">Finalize Product</h4>
+							<p class="textProcess">Curabitur blandit tempus porttitor. Vestibulum ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus.</p>
+							<ul class="ulBoxProcess">
+								<li>Cras justo odio, dapibus ac facilisis eget quam.</li>
+								<li>Donec ullamcorper nulla non metus auctor fringilla.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="content backImgContent">
+		<div class="container">
+			<h3 class="main-title">
+				Let's make something <strong>great</strong> together
+				<br><span class="zigzagWhite"></span>
+			</h3>
+			<a href="#" class="linkGreat">View more work</a>
+			<a href="#" class="linkGreat">Get in touch</a>
+		</div>
+	</div>
+
+
+	<div class="content greycontent newsContent">
+		<div class="container">
+			<h3 class="main-title">
+				<strong>Recent</strong> news
+				<br><span class="zigzag"></span>
+			</h3>
+
+			<div class="news">
+				<div class="col-4 md-6 sm-12 float-left newBox">
+					<div class="new">
+						<img src="img/b1.jpg" alt="" class="img_new">
+						<div class="groupNew">
+							<h3 class="post-title"><a href="#">Parturient Commodo Aenean</a></h3>
+							<div class="metaNew">
+								<span class="dateNew">14 Oct 2014</span>
+								<span class="category"><a href="#">Logo</a>, <a href="#">PSD</a></span>
+								<span class="comments"><a href="#"><i class="fa fa-comments"></i>15</a></span>
+							</div>
+							<p class="textNew">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus.</p>
+							<a href="#" class="readMore">Continue Reading <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 md-6 sm-12 float-left newBox">
+					<div class="new">
+						<img src="img/b2.jpg" alt="" class="img_new">
+						<div class="groupNew">
+							<h3 class="post-title"><a href="#">Parturient Commodo Aenean</a></h3>
+							<div class="metaNew">
+								<span class="dateNew">12 Nov 2014</span>
+								<span class="category"><a href="#">Business Card</a></span>
+								<span class="comments"><a href="#"><i class="fa fa-comments"></i>15</a></span>
+							</div>
+							<p class="textNew">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus.</p>
+							<a href="#" class="readMore">Continue Reading <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 md-6 sm-12 float-left newBox">
+					<div class="new">
+						<img src="img/b3.jpg" alt="" class="img_new">
+						<div class="groupNew">
+							<h3 class="post-title"><a href="#">Parturient Commodo Aenean</a></h3>
+							<div class="metaNew">
+								<span class="dateNew">23 DEC 2014</span>
+								<span class="category"><a href="#">Mockup</a>, <a href="#">PSD</a></span>
+								<span class="comments"><a href="#"><i class="fa fa-comments"></i>15</a></span>
+							</div>
+							<p class="textNew">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus.</p>
+							<a href="#" class="readMore">Continue Reading <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="content blackcontent">
+		<div class="container">
+			<div class="col-4 md-12 sm-12 float-left boxPrefooter">
+				<h3 class="titlePreFooter">Popular Posts</h3>
+				<div class="boxPreFooter">
+					<div class="postPreFooter">
+						<a href="#" class="linkImgPreFooter"><i class="fa fa-link"></i><img src="img/a1.jpg" alt="" class="imgPreFooter"></a>
+						<div class="infoPostPreFooter">
+							<h5><a href="#" class="linkPostPreFooter">Magna Mollis Ultricies</a></h5>
+							<div class="metaNew">
+								<span class="dateNew">3th Oct 2012</span>
+								<span class="comments"><a href="#">8 <i class="fa fa-comments"></i></a></span>
+							</div>
+						</div>
+					</div>
+					<div class="postPreFooter">
+						<a href="#" class="linkImgPreFooter"><i class="fa fa-link"></i><img src="img/a2.jpg" alt="" class="imgPreFooter"></a>
+						<div class="infoPostPreFooter">
+							<h5><a href="#" class="linkPostPreFooter">Ornare Nullam Risus Tellus Elit Fusce Inceptos Etiam</a></h5>
+							<div class="metaNew">
+								<span class="dateNew">28th Sep 2012</span>
+								<span class="comments"><a href="#">5 <i class="fa fa-comments"></i></a></span>
+							</div>
+						</div>
+					</div>
+					<div class="postPreFooter">
+						<a href="#" class="linkImgPreFooter"><i class="fa fa-link"></i><img src="img/a3.jpg" alt="" class="imgPreFooter"></a>
+						<div class="infoPostPreFooter">
+							<h5><a href="#" class="linkPostPreFooter">Euismod Nullam</a></h5>
+							<div class="metaNew">
+								<span class="dateNew">15th Aug 2012</span>
+								<span class="comments"><a href="#">9 <i class="fa fa-comments"></i></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-4 md-12 sm-12 float-left boxPrefooter">
+				<h3 class="titlePreFooter">Subscribe to Our Newsletter</h3>
+				<div class="boxPreFooter">
+					<form action="" method="POST" class="newsletterBox">
+						<input type="text" name="mail" class="col-9" id="mailNewsletter" placeholder="Enter email"><button type="submit" class="col-3" id="joinNewsletter">JOIN</button>
+					</form>
+				</div>
+
+				<div class="boxPreFooter getintouchBox">
+					<h3 class="titlePreFooter">Get in Touch</h3>
+					<p class="textTouchBox">Fusce dapibus, tellus commodo, tortor mauris condimentum utellus.</p>
+					<ul class="infoTouchBox">
+						<li><i class="fa fa-map-marker"></i> Moonshine St. 14/05 Light City</li>
+						<li><i class="fa fa-phone"></i> +00 (123) 456 78 90</li>
+						<li><i class="fa fa-envelope"></i> <a href="mailto:first.last@email.com">first.last@email.com</a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="col-4 md-12 sm-12 float-left boxPrefooter">
+				<h3 class="titlePreFooter">Tags</h3>
+				<div class="boxPreFooter">
+					<ul class="tags">
+						<li class="tag"><a href="#">Web</a></li>
+						<li class="tag"><a href="#">Photography</a></li>
+						<li class="tag"><a href="#">Illustration</a></li>
+						<li class="tag"><a href="#">Fun</a></li>
+						<li class="tag"><a href="#">Blog</a></li>
+						<li class="tag"><a href="#">Commercial</a></li>
+					</ul>
+				</div>
+
+				<div class="boxPreFooter categories">
+					<h3 class="titlePreFooter">Categories</h3>
+					<ul class="listCategories">
+						<li class="tag"><a href="#">Web Design (21)</a></li>
+						<li class="tag"><a href="#">Photography (19)</a></li>
+						<li class="tag"><a href="#">Graphic Design (16)</a></li>
+						<li class="tag"><a href="#">Motion Video (23)</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer">
+		<div class="container">
+			<p class="copyright sm-12">&copy; 2015 Kwoon. All rights reserved. Theme by <a href="#">elemis</a>.</p>
+			<div class="socialNetwork sm-12">
+				<a href="#"><i class="fa fa-rss footerRSS"></i></a>
+				<a href="#"><i class="fa fa-twitter footerTwitter"></i></a>
+				<a href="#"><i class="fa fa-facebook footerFacebook"></i></a>
+				<a href="#"><i class="fa fa-pinterest-p footerPinterest"></i></a>
+				<a href="#"><i class="fa fa-linkedin footerLinkedin"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<a href="contact.html" id="floatContact"><i class="fa fa-envelope-o"></i></a>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>
